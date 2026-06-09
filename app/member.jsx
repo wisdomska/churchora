@@ -58,15 +58,15 @@ function MemberHome({ setTab, onWish }) {
 
         {/* quick actions */}
         <div style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 12, marginTop: 14 }}>
-          <button onClick={() => setTab("give")} className="card" style={{ padding: 16, borderRadius: "var(--r-md)", textAlign: "left", cursor: "pointer" }}>
+          <button onClick={() => setTab("give")} className="card" style={{ padding: 16, borderRadius: "var(--r-md)", textAlign: "left", cursor: "pointer", color: "var(--text)" }}>
             <MIconChip name="hand-coins" tone="success" size={38} style={{ marginBottom: 10 }} />
-            <div style={{ fontWeight: 500, fontSize: ".98rem" }}>Give now</div>
-            <div className="muted" style={{ fontSize: ".8rem" }}>Tithe & offering</div>
+            <div style={{ fontWeight: 500, fontSize: ".98rem", color: "var(--text)" }}>Give now</div>
+            <div style={{ fontSize: ".8rem", color: "var(--text-muted)", marginTop: 2 }}>Tithe & offering</div>
           </button>
-          <button onClick={() => setTab("verses")} className="card" style={{ padding: 16, borderRadius: "var(--r-md)", textAlign: "left", cursor: "pointer" }}>
+          <button onClick={() => setTab("verses")} className="card" style={{ padding: 16, borderRadius: "var(--r-md)", textAlign: "left", cursor: "pointer", color: "var(--text)" }}>
             <MIconChip name="book-open" tone="primary" size={38} style={{ marginBottom: 10 }} />
-            <div style={{ fontWeight: 500, fontSize: ".98rem" }}>The Word</div>
-            <div className="muted" style={{ fontSize: ".8rem" }}>Read & share</div>
+            <div style={{ fontWeight: 500, fontSize: ".98rem", color: "var(--text)" }}>The Word</div>
+            <div style={{ fontSize: ".8rem", color: "var(--text-muted)", marginTop: 2 }}>Read & share</div>
           </button>
         </div>
 
