@@ -231,7 +231,7 @@ function TranscriptRail({ onPushVerse }) {
         <div ref={scrollRef} className="scroll-area" style={{ flex: 1, overflowY: "auto", paddingRight: 4 }}>
           <div style={{ fontSize: ".82rem", lineHeight: 1.7, color: "var(--chrome-muted)" }}>
             <span>{finalText}</span>
-            {interim && <span style={{ color: "rgba(255,255,255,.35)", fontStyle: "italic" }}>{interim}</span>}
+            {interim && <span style={{ color: "rgba(255,255,255,.58)", fontStyle: "italic" }}>{interim}</span>}
           </div>
         </div>
       ) : !listening ? (

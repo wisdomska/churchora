@@ -71,12 +71,12 @@
 [data-theme="navy"][data-mode="dark"]{
   --page:#091421; --surface:#0F1D2E; --surface-2:#15273C; --elevated:#142539;
   --border:#21364F; --border-strong:#2E4A66;
-  --text:#E9F0F7; --text-muted:#9DB0C4; --text-subtle:#6A7E92;
+  --text:#E9F0F7; --text-muted:#9DB0C4; --text-subtle:#7D92A6;
   --primary:#5E8FCB; --primary-hover:#79A4D9; --primary-press:#4E7DB8;
-  --primary-contrast:#08121F; --primary-tint:rgba(94,143,203,.16); --primary-tint-2:rgba(94,143,203,.28);
-  --accent:#D8B45E; --accent-tint:rgba(216,180,94,.15);
+  --primary-contrast:#EAF1FB; --primary-tint:rgba(94,143,203,.16); --primary-tint-2:rgba(94,143,203,.28);
+  --accent:#D8B45E; --accent-tint:rgba(216,180,94,.18);
   --ring:rgba(94,143,203,.45);
-  --chrome:#060F1A; --chrome-text:#E9F0F7; --chrome-muted:rgba(233,240,247,.6);
+  --chrome:#060F1A; --chrome-text:#E9F0F7; --chrome-muted:rgba(233,240,247,.72);
 }
 
 /* ============================ ORANGE ============================ */
@@ -93,12 +93,12 @@
 [data-theme="orange"][data-mode="dark"]{
   --page:#17110C; --surface:#1F1812; --surface-2:#281F17; --elevated:#241C15;
   --border:#3A2D22; --border-strong:#4E3C2D;
-  --text:#F5ECE3; --text-muted:#B8A795; --text-subtle:#85735f;
+  --text:#F5ECE3; --text-muted:#C4AD98; --text-subtle:#9C8878;
   --primary:#F0733E; --primary-hover:#FF8856; --primary-press:#DA5F2C;
-  --primary-contrast:#1A0E07; --primary-tint:rgba(240,115,62,.16); --primary-tint-2:rgba(240,115,62,.28);
-  --accent:#5FA6C2; --accent-tint:rgba(95,166,194,.15);
+  --primary-contrast:#1A0E07; --primary-tint:rgba(240,115,62,.18); --primary-tint-2:rgba(240,115,62,.30);
+  --accent:#5FA6C2; --accent-tint:rgba(95,166,194,.18);
   --ring:rgba(240,115,62,.45);
-  --chrome:#120C07; --chrome-text:#F5ECE3; --chrome-muted:rgba(245,236,227,.6);
+  --chrome:#120C07; --chrome-text:#F5ECE3; --chrome-muted:rgba(245,236,227,.72);
 }
 
 /* ============================ GREEN ============================ */
@@ -110,34 +110,34 @@
   --primary-contrast:#FFFFFF; --primary-tint:#E6F2EB; --primary-tint-2:#CFE6D8;
   --accent:#C29B43; --accent-tint:#F6EFDC;
   --ring:rgba(31,122,77,.30);
-  --chrome:#0E3322; --chrome-text:#E9F4ED; --chrome-muted:rgba(233,244,237,.62);
+  --chrome:#0E3322; --chrome-text:#E9F4ED; --chrome-muted:rgba(233,244,237,.72);
 }
 [data-theme="green"][data-mode="dark"]{
   --page:#0A140F; --surface:#0F1D15; --surface-2:#15281C; --elevated:#14261A;
   --border:#21392A; --border-strong:#2E4F39;
-  --text:#E8F2EB; --text-muted:#9FB6A8; --text-subtle:#6B8174;
+  --text:#E8F2EB; --text-muted:#A8C0B2; --text-subtle:#7E9E90;
   --primary:#4FB07A; --primary-hover:#63C28C; --primary-press:#3F9968;
-  --primary-contrast:#06140C; --primary-tint:rgba(79,176,122,.16); --primary-tint-2:rgba(79,176,122,.28);
-  --accent:#D8B45E; --accent-tint:rgba(216,180,94,.15);
+  --primary-contrast:#E8F5EE; --primary-tint:rgba(79,176,122,.18); --primary-tint-2:rgba(79,176,122,.30);
+  --accent:#D8B45E; --accent-tint:rgba(216,180,94,.18);
   --ring:rgba(79,176,122,.45);
-  --chrome:#06120B; --chrome-text:#E8F2EB; --chrome-muted:rgba(232,242,235,.6);
+  --chrome:#06120B; --chrome-text:#E8F2EB; --chrome-muted:rgba(232,242,235,.72);
 }
 
 /* ============================ MONO ============================ */
 [data-theme="mono"][data-mode="light"]{
   --page:#F3F3F3; --surface:#FFFFFF; --surface-2:#EAEAEA; --elevated:#FFFFFF;
   --border:#E2E2E2; --border-strong:#CFCFCF;
-  --text:#161616; --text-muted:#6A6A6A; --text-subtle:#9C9C9C;
+  --text:#161616; --text-muted:#5A5A5A; --text-subtle:#888888;
   --primary:#1A1A1A; --primary-hover:#000000; --primary-press:#000000;
   --primary-contrast:#FFFFFF; --primary-tint:#EAEAEA; --primary-tint-2:#D8D8D8;
   --accent:#1A1A1A; --accent-tint:#EAEAEA;
   --ring:rgba(0,0,0,.30);
-  --chrome:#161616; --chrome-text:#F3F3F3; --chrome-muted:rgba(243,243,243,.62);
+  --chrome:#161616; --chrome-text:#F3F3F3; --chrome-muted:rgba(243,243,243,.80);
 }
 [data-theme="mono"][data-mode="dark"]{
   --page:#0D0D0D; --surface:#161616; --surface-2:#202020; --elevated:#1C1C1C;
   --border:#2A2A2A; --border-strong:#3C3C3C;
-  --text:#F2F2F2; --text-muted:#A6A6A6; --text-subtle:#727272;
+  --text:#F2F2F2; --text-muted:#B4B4B4; --text-subtle:#858585;
   --primary:#F2F2F2; --primary-hover:#FFFFFF; --primary-press:#DADADA;
   --primary-contrast:#0D0D0D; --primary-tint:rgba(255,255,255,.10); --primary-tint-2:rgba(255,255,255,.18);
   --accent:#F2F2F2; --accent-tint:rgba(255,255,255,.10);
@@ -250,10 +250,11 @@ textarea.field { height: auto; padding: 12px 14px; line-height: 1.5; resize: ver
 .scroll-area::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 99px; }
 .scroll-area::-webkit-scrollbar-track { background: transparent; }
 
-@keyframes fadeUp { from { transform: translateY(12px); } to { transform: none; } }
-@keyframes fadeIn { from { transform: translateY(5px); } to { transform: none; } }
-@keyframes scaleIn { from { transform: scale(.985); } to { transform: none; } }
-.anim-up { animation: fadeUp .5s var(--ease) both; }
-.anim-in { animation: fadeIn .4s var(--ease) both; }
+@keyframes fadeUp  { from { transform: translateY(12px); } to { transform: none; } }
+@keyframes fadeIn  { from { transform: translateY(5px);  } to { transform: none; } }
+@keyframes scaleIn { from { transform: scale(.985);      } to { transform: none; } }
+@keyframes ch-spin { to   { transform: rotate(360deg);   } }
+.anim-up    { animation: fadeUp  .5s  var(--ease) both; }
+.anim-in    { animation: fadeIn  .4s  var(--ease) both; }
 .anim-scale { animation: scaleIn .35s var(--ease) both; }
 @media (prefers-reduced-motion: reduce) { .anim-up, .anim-in, .anim-scale { animation: none; } }

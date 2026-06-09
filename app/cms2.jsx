@@ -298,8 +298,8 @@ function PlanSettings({ plan, setPlan }) {
 }
 
 /* ---------------- SHELL ---------------- */
-function AdminCMS({ go, theme, setTheme, mode, setMode }) {
-  const [page, setPage] = React.useState("dashboard");
+function AdminCMS({ go, theme, setTheme, mode, setMode, openTo = "dashboard" }) {
+  const [page, setPage] = React.useState(openTo);
   const [plan, setPlan] = React.useState("advanced");
   const { CmsSidebar, CmsTopbar } = window.CmsShellParts;
   const { CmsDashboard, CmsMembers, CmsGiving } = window.CmsPages;
